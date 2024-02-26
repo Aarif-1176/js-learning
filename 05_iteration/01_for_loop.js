@@ -1,4 +1,4 @@
-// Loop in js
+// Loop in js are sweeter than in rust
 
 for(let index = 0; index < 10; index++){
     console.log(index);
