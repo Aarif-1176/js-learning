@@ -44,8 +44,10 @@ myCoding.forEach((item) =>{
     console.log(item.languageFileName);
 })
 
+// in for each loop it cannot retrun values
 
 const number = ['one', 'two','three', 'four','five','six'];
-coding.forEach(item) => {
-    
-}
+const values = coding.forEach((item) => {
+    console.log(item)
+})
+console.log(values)
